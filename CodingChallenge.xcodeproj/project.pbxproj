@@ -22,6 +22,12 @@
 		2A313EF918E0B7A600C0EB31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A313ED818E0B7A600C0EB31 /* UIKit.framework */; };
 		2A313F0118E0B7A600C0EB31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A313EFF18E0B7A600C0EB31 /* InfoPlist.strings */; };
 		2A313F0318E0B7A600C0EB31 /* CodingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A313F0218E0B7A600C0EB31 /* CodingChallengeTests.m */; };
+		2A31450A18E236D000C0EB31 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A31450118E2364400C0EB31 /* libRestKit.a */; };
+		2A31450C18E236E400C0EB31 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A31450B18E236E400C0EB31 /* CFNetwork.framework */; };
+		2A31450E18E236EB00C0EB31 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A31450D18E236EB00C0EB31 /* CoreData.framework */; };
+		2A31451018E236F400C0EB31 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A31450F18E236F400C0EB31 /* MobileCoreServices.framework */; };
+		2A31451218E236FB00C0EB31 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A31451118E236FB00C0EB31 /* Security.framework */; };
+		2A31451418E2370800C0EB31 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A31451318E2370800C0EB31 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2A313ED018E0B7A600C0EB31;
 			remoteInfo = CodingChallenge;
+		};
+		2A31450018E2364400C0EB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3144F918E2364200C0EB31 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		2A31450218E2364400C0EB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3144F918E2364200C0EB31 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		2A31450418E2364400C0EB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3144F918E2364200C0EB31 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		2A31450618E2364400C0EB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3144F918E2364200C0EB31 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		2A31450818E236CC00C0EB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3144F918E2364200C0EB31 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,6 +96,12 @@
 		2A313EFE18E0B7A600C0EB31 /* CodingChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodingChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		2A313F0018E0B7A600C0EB31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A313F0218E0B7A600C0EB31 /* CodingChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodingChallengeTests.m; sourceTree = "<group>"; };
+		2A3144F918E2364200C0EB31 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		2A31450B18E236E400C0EB31 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2A31450D18E236EB00C0EB31 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2A31450F18E236F400C0EB31 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2A31451118E236FB00C0EB31 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2A31451318E2370800C0EB31 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +109,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A31451418E2370800C0EB31 /* SystemConfiguration.framework in Frameworks */,
+				2A31451218E236FB00C0EB31 /* Security.framework in Frameworks */,
+				2A31451018E236F400C0EB31 /* MobileCoreServices.framework in Frameworks */,
+				2A31450E18E236EB00C0EB31 /* CoreData.framework in Frameworks */,
+				2A31450C18E236E400C0EB31 /* CFNetwork.framework in Frameworks */,
+				2A31450A18E236D000C0EB31 /* libRestKit.a in Frameworks */,
 				2A313ED718E0B7A600C0EB31 /* CoreGraphics.framework in Frameworks */,
 				2A313ED918E0B7A600C0EB31 /* UIKit.framework in Frameworks */,
 				2A313ED518E0B7A600C0EB31 /* Foundation.framework in Frameworks */,
@@ -84,6 +137,7 @@
 		2A313EC818E0B7A600C0EB31 = {
 			isa = PBXGroup;
 			children = (
+				2A3144F918E2364200C0EB31 /* RestKit.xcodeproj */,
 				2A313EDA18E0B7A600C0EB31 /* CodingChallenge */,
 				2A313EFC18E0B7A600C0EB31 /* CodingChallengeTests */,
 				2A313ED318E0B7A600C0EB31 /* Frameworks */,
@@ -103,6 +157,11 @@
 		2A313ED318E0B7A600C0EB31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A31451318E2370800C0EB31 /* SystemConfiguration.framework */,
+				2A31451118E236FB00C0EB31 /* Security.framework */,
+				2A31450F18E236F400C0EB31 /* MobileCoreServices.framework */,
+				2A31450D18E236EB00C0EB31 /* CoreData.framework */,
+				2A31450B18E236E400C0EB31 /* CFNetwork.framework */,
 				2A313ED418E0B7A600C0EB31 /* Foundation.framework */,
 				2A313ED618E0B7A600C0EB31 /* CoreGraphics.framework */,
 				2A313ED818E0B7A600C0EB31 /* UIKit.framework */,
@@ -155,6 +214,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2A3144FA18E2364200C0EB31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A31450118E2364400C0EB31 /* libRestKit.a */,
+				2A31450318E2364400C0EB31 /* RestKitTests.octest */,
+				2A31450518E2364400C0EB31 /* RestKit.framework */,
+				2A31450718E2364400C0EB31 /* RestKitFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,6 +239,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2A31450918E236CC00C0EB31 /* PBXTargetDependency */,
 			);
 			name = CodingChallenge;
 			productName = CodingChallenge;
@@ -218,6 +289,12 @@
 			mainGroup = 2A313EC818E0B7A600C0EB31;
 			productRefGroup = 2A313ED218E0B7A600C0EB31 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2A3144FA18E2364200C0EB31 /* Products */;
+					ProjectRef = 2A3144F918E2364200C0EB31 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2A313ED018E0B7A600C0EB31 /* CodingChallenge */,
@@ -225,6 +302,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2A31450118E2364400C0EB31 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 2A31450018E2364400C0EB31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2A31450318E2364400C0EB31 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 2A31450218E2364400C0EB31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2A31450518E2364400C0EB31 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 2A31450418E2364400C0EB31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2A31450718E2364400C0EB31 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 2A31450618E2364400C0EB31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2A313ECF18E0B7A600C0EB31 /* Resources */ = {
@@ -274,6 +382,11 @@
 			isa = PBXTargetDependency;
 			target = 2A313ED018E0B7A600C0EB31 /* CodingChallenge */;
 			targetProxy = 2A313EFA18E0B7A600C0EB31 /* PBXContainerItemProxy */;
+		};
+		2A31450918E236CC00C0EB31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 2A31450818E236CC00C0EB31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -394,7 +507,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodingChallenge/CodingChallenge-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "CodingChallenge/CodingChallenge-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,7 +522,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodingChallenge/CodingChallenge-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "CodingChallenge/CodingChallenge-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -474,6 +591,7 @@
 				2A313F0818E0B7A600C0EB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A313F0918E0B7A600C0EB31 /* Build configuration list for PBXNativeTarget "CodingChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +600,7 @@
 				2A313F0B18E0B7A600C0EB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
